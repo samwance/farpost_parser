@@ -73,8 +73,10 @@ REST_FRAMEWORK = {
     ),
 }
 
+token_lifetime = int(os.getenv("TOKEN_LIFETIME", 5))
+
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=token_lifetime),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
 }
 
