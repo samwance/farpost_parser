@@ -10,3 +10,9 @@ class AdDetailView(generics.RetrieveAPIView):
     serializer_class = AdSerializer
     lookup_field = 'ad_id'
     permission_classes = [IsAuthenticated]
+
+
+class AdListView(generics.ListAPIView):
+    queryset = Ad.objects.all()
+    serializer_class = AdSerializer
+    permission_classes = [IsAuthenticated]
