@@ -12,8 +12,9 @@
 
 ## Технологии
 
-- Python 3.9+
-- Django 3.2+
+[![Python](https://img.shields.io/badge/-Python-464646?style=flat-square&logo=Python)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/-Django-464646?style=flat-square&logo=Django)](https://www.djangoproject.com/)
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-464646?style=flat-square&logo=PostgreSQL)](https://www.postgresql.org/)
 - BeautifulSoup4
 - Requests
 - Django Rest Framework
@@ -101,4 +102,4 @@ GET /{id}/
 Пример вывода объявления по id в postman:
 ![img.png](media/ad_detail.png)
 
-так же в корневой папке находится json-файл со всеми данными по объявлениям
+Так же в корневой папке находится json-файл со всеми данными по объявлениям
