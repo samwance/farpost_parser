@@ -82,9 +82,13 @@ python manage.py parse_ads
 ```
 GET /
 ```
+Пример вывода списка объявлений в postman
+![img.png](media/ads_list.png)
 ### Получение объявления по ID
 ```
 GET /{id}/
 ```
+Пример вывода объявления по id в postman:
+![img.png](media/ad_detail.png)
 
 так же в корневой папке находится json-файл со всеми данными по объявлениям
